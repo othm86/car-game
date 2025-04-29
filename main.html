@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الصفحة الرئيسية</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 30px; background-color: #ffffff; }
+        img { max-width: 90%; height: auto; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2 id="greeting"></h2>
+    <img src="طقطقه.png" alt="الصورة">
+
+    <script>
+        const name = localStorage.getItem("username");
+        document.getElementById("greeting").innerText = "يا " + name + " تم سحب المعلومات 😂";
+    </script>
+</body>
+</html>
