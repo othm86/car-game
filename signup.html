@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تسجيل حساب جديد</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>تسجيل حساب جديد</h2>
+    <form id="signupForm">
+      <input type="text" id="username" placeholder="الاسم الكامل" required />
+      <input type="email" id="email" placeholder="البريد الإلكتروني" required />
+      <input type="password" id="password" placeholder="كلمة المرور" required />
+      <input type="date" id="birthdate" placeholder="تاريخ الميلاد" required />
+      
+      <label style="display: flex; align-items: center; gap: 10px; margin-top: 10px;">
+        <input type="checkbox" id="consent" />
+        أوافق على إرسال بيانات تسجيلي لصاحب الموقع
+      </label>
+
+      <button type="submit">إنشاء حساب</button>
+    </form>
+  </div>
+  <script src="signup.js"></script>
+</body>
+</html>
