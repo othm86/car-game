@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>تسجيل حساب جديد</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -24,6 +25,12 @@
       <button type="submit">إنشاء حساب</button>
     </form>
   </div>
+
+  <script>
+    (function(){
+      emailjs.init("yUDQHx3isE9zPihRh");
+    })();
+  </script>
   <script src="signup.js"></script>
 </body>
 </html>
